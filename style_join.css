@@ -1,0 +1,149 @@
+#grid_header{
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 80em;
+    padding-top: 20px;     
+}
+#join_page {
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 60em;
+}
+#grid_header {
+    display: grid;   
+}
+#grid_menu a {
+    text-decoration: none;
+    color: black;
+}
+#grid_header a {
+    text-decoration: none;
+    color: black;
+}
+#grid_header ul li {
+    list-style: none;
+    padding: 0 11px;
+    float:left;
+}
+#grid_menu {
+    border-bottom: 2px solid gray;
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 80em;
+}
+#grid_menu ul li {
+    list-style: none;
+    float: left;
+}
+#login_page input {
+    display: inline;
+    float: left;
+}
+.search input {
+    width: 20%!IMPORTANT;
+    display: inline;
+    float: left;
+}
+.header_top {
+    font-size: 13px;
+}
+.gnb_menu {
+    font-size: 23px;
+}
+.content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: calc(100% - 4em);
+    width: 60em;
+    height: 25em;
+    border: 1px solid #353535;
+    padding-top: 20px;
+    background-color: rgb(233, 233, 233);
+}
+.tools {
+    margin: 0 20%;
+    max-width: calc(100% - 4em);
+    padding-top: 20px;
+}
+.tools a {
+    text-decoration: none;
+    color: black;
+}
+.join_box {
+    margin-top: 60px; 
+}
+.text_bar {
+text-align: center;
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+h2 {
+    margin-bottom: 20px;
+}
+.search img {
+    width: 50%;
+}
+.header_top {
+    padding-left: 65%;
+}
+.container_fluid a {
+    font-size: 45px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#carouselExampleIndicators {
+    margin-top: 30px;
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+}
+#logo {
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 80em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#form3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 10%;
+}
+.join_box {
+    margin-bottom: 10%
+}
+#footer {
+    background-color: rgb(192, 192, 192);
+    border-top: 1px solid gray;
+}
+.footer_inner {
+    margin: 0 auto;
+    max-width: calc(100% - 4em);
+    width: 80em;
+}
+.partner_box_wrap {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+.partner_box_wrap a {
+    text-decoration: none;
+    color: black;
+}
+.top button {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    z-index: 100;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.content button {
+    margin-bottom: 20px;
+    width: 300px;
+}
